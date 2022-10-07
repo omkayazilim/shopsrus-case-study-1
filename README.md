@@ -1,2 +1,2 @@
-# shopsrus-case-study
+# shopsrus case study
 ShopsRUs Retail Store Discounts
