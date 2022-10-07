@@ -12,3 +12,6 @@
 /shopsrus-case-api/obj
 /shopsrus-case-api/.sonarqube
 /Tests/obj
+/Infrastructure/bin/Debug/net6.0
+/shopsrus-case-api/bin/Debug/net6.0
+/Tests/bin/Debug/net6.0

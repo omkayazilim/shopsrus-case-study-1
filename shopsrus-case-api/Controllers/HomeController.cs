@@ -5,10 +5,10 @@ namespace shopsrus_case_api.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly IUserService _userService; 
-        public HomeController(IUserService userService)
+       
+        public HomeController()
         {
-                _userService = userService; 
+                
         }
 
         [HttpGet("GetUserName")]

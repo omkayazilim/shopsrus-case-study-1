@@ -9,15 +9,11 @@ builder.Services.AddDbContext<AppDbContext>(opt => { opt.SetSqlServerOptions(bui
 builder.Services.AddScoped<IAppDbContext, AppDbContext>();
 builder.Services.AddInfrastructures(builder.Configuration);
 IocConfiguration.RegisterAllDependencies(builder.Services, builder.Configuration);
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddHttpContextAccessor();
 var app = builder.Build();
-
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -29,7 +25,6 @@ using (var scope = app.Services.CreateScope())
     if (context != null)
     {
         await context.Database.MigrateAsync();
-        await DataSeeding.Seed(context);
     }
 }
 

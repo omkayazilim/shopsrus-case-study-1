@@ -9,35 +9,17 @@
     }
   },
   "profiles": {
-    "shopsrus_case_api_local": {
+
+
+    "shopsRus.View": {
       "commandName": "Project",
-      "dotnetRunMessages": true,
       "launchBrowser": true,
-      "launchUrl": "swagger",
-      "applicationUrl": "http://localhost:5100",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "local"
-      }
-    },
-    "shopsrus_case_api_dev": {
-      "commandName": "Project",
-      "dotnetRunMessages": true,
-      "launchBrowser": true,
-      "launchUrl": "swagger",
-      "applicationUrl": "http://localhost:5101",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "dev"
-      }
-    },
-    "shopsrus_case_api_prod": {
-      "commandName": "Project",
-      "dotnetRunMessages": true,
-      "launchBrowser": true,
-      "launchUrl": "swagger",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
       "applicationUrl": "http://localhost:5102",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "prod"
-      }
+      "launchUrl": "swagger",
+      "dotnetRunMessages": true
     }
 
 

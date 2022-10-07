@@ -1,6 +1,5 @@
 ﻿using shopsrus.Domain;
 using shopsrus.Domain.Entityes;
-using shopsrus.Domain.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
