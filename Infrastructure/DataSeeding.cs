@@ -1,5 +1,5 @@
-﻿using shopsrus.Domain;
-using shopsrus.Domain.Entityes;
+﻿using shopsruscase.Domain;
+using shopsruscase.Domain.Entityes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace shopsrus.Infrastructure
+namespace shopsruscase.Infrastructure
 {
     public static class DataSeeding
     {

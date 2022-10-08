@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace shopsrus.Domain.Dtos
+namespace shopsruscase.Domain.Dtos
 {
     public class OperationResultDto
     {

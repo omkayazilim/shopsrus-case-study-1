@@ -1,10 +1,10 @@
-﻿using shopsrus.Domain;
-using shopsrus.Domain.Entityes;
+﻿using shopsruscase.Domain;
+using shopsruscase.Domain.Entityes;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
 
-namespace shopsrus.Infrastructure
+namespace shopsruscase.Infrastructure
 {
     public class AppDbContext : DbContext, IAppDbContext
     {

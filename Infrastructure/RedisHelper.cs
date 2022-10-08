@@ -1,7 +1,7 @@
-﻿using shopsrus.Domain.Dtos;
+﻿using shopsruscase.Domain.Dtos;
 using StackExchange.Redis;
 
-namespace shopsrus.Infrastructure
+namespace shopsruscase.Infrastructure
 {
     public interface IRedisService
     {

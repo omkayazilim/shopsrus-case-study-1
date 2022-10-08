@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace shopsrus.Infrastructure.Migrations
+namespace shopsruscase.Infrastructure.Migrations
 {
     public partial class firstcreate : Migration
     {

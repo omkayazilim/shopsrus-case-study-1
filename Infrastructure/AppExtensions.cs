@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 
 
-namespace shopsrus.Infrastructure
+namespace shopsruscase.Infrastructure
 {
     public static class AppExtensions
     {

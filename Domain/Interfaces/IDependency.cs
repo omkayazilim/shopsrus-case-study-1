@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace shopsrus.Domain.Interfaces
+namespace shopsruscase.Domain.Interfaces
 {
     public interface IScopedDependency
     {

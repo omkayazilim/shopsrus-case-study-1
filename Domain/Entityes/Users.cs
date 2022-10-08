@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace shopsrus.Domain.Entityes
+namespace shopsruscase.Domain.Entityes
 {
     [Table("T_Users")]
     public class Users: EntityBase

@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace shopsrus.Infrastructure
+namespace shopsruscase.Infrastructure
 {
   public static  class DependencyContexts
     {

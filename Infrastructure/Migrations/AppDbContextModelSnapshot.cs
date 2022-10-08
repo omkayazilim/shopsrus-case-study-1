@@ -2,11 +2,11 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using shopsrus.Infrastructure;
+using shopsruscase.Infrastructure;
 
 #nullable disable
 
-namespace shopsrus.Infrastructure.Migrations
+namespace shopsruscase.Infrastructure.Migrations
 {
     [DbContext(typeof(AppDbContext))]
     partial class AppDbContextModelSnapshot : ModelSnapshot

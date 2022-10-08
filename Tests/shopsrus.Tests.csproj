@@ -26,7 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\shopsrus-case-api\shopsrus-case-api.csproj" />
+    <ProjectReference Include="..\shopsruscase.api\shopsruscase.api.csproj" />
   </ItemGroup>
 
 </Project>

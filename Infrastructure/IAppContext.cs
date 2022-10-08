@@ -1,5 +1,5 @@
 ﻿
-namespace shopsrus.Infrastructure
+namespace shopsruscase.Infrastructure
 {
     public interface IAppDbContext
     {

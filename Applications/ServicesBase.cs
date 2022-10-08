@@ -2,9 +2,9 @@
 
 using Microsoft.Extensions.DependencyInjection;
 using Serilog;
-using shopsrus.Infrastructure;
+using shopsruscase.Infrastructure;
 
-namespace shopsrus.Applications
+namespace shopsruscase.Applications
 {
     public class ServicesBase
     {

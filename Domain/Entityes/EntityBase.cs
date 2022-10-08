@@ -1,5 +1,5 @@
 ﻿
-using shopsrus.Domain.Interfaces;
+using shopsruscase.Domain.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace shopsrus.Domain.Entityes
+namespace shopsruscase.Domain.Entityes
 {
     public abstract class EntityBase : IEntitiesBase
     {
